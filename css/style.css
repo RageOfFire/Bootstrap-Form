@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(cyan, purple);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 100%;
+}
+
+body {
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.navbar {
+    border-radius: 10px;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: large;
+    padding: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    height: 500px;
+}
+
+.title {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name label {
+    display: inline-block;
+    top: 25px;
+}
+
+input {
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.choosen {
+    height: 50px;
+    width: 387px;
+}
+
+.submit-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
